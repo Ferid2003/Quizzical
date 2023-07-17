@@ -1,0 +1,126 @@
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btm{
+    position: absolute;
+    background-position: left bottom;
+    background-image: url("images/blob 5.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.top{
+    position: absolute;
+    background-image: url("images/blob 5 (1).png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.welcome_holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    z-index: 2;
+}
+.welcome-title{
+    margin: 0 0 30px 0;
+    color: #293264;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.welcome-desc{
+    margin: 0 0 20px 0;
+}
+.welcome-btn{
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 16px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+}
+.welcome-btn:focus{
+    outline: none;
+}
+.welcome-btn:active{
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+.form-control {
+    position: relative;
+}
+.form-control select{
+    outline: none;
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+}
+.form-control {
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid #4D5B9E;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 0.95rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+.cat-holder{
+    display: flex;
+    align-items: center;
+    max-width: 403px;
+    margin-bottom: 18px;
+}
+.dif-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 403px;
+}
+.dif-holder h4{
+    margin-right: 51px;
+}
+h4{
+    margin: 0 5px;
+}
+@media (max-width: 405px) {
+    .dif-holder, .cat-holder{
+        flex-direction: column;
+        justify-content: center;
+        max-width: 403px;
+        width: auto;
+    }
+    .form-control{
+        width:50%;
+    }
+    h4{
+        margin-bottom: 5px;
+    }
+}
