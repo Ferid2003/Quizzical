@@ -2,6 +2,10 @@
 
 Final project of scrimba "Learn React" course.
 
+Used technologies HTML , CSS , JS/React
+
+Used libraries and api [html-entites](https://www.npmjs.com/package/html-entities#user-content-decodetext-options) and [Open Trivia Api](https://opentdb.com)
+
 Simple quiz app that you can play by selecting question category and difficulty
 
 ## [See live preview here](https://link-url-here.org)
